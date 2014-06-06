@@ -1,0 +1,35 @@
+package mlab.MySimpleCalc;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.view.Menu;
+import android.widget.EditText;
+
+public class MainActivity extends Activity {
+	//decrare edittext
+	EditText amount,rate,time;
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
+		//find your edit text by id from XML layout
+		amount =(EditText)findViewById(R.id.amount);
+		rate =(EditText)findViewById(R.id.edittextrate);
+		time =(EditText)findViewById(R.id.edittexttime);
+	}
+	//listen to button click
+	public void calculate(view v){
+		
+		
+	}
+	
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.main, menu);
+		return true;
+	}
+
+}

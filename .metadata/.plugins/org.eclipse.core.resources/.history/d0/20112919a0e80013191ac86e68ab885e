@@ -1,0 +1,20 @@
+package mlab.MySimpleCalc;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Toast;
+
+public class Banks extends Activity {
+	
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.banks);//access layout
+	}
+	public void eq (View v){
+		  Toast.setView(eq);
+	      
+		Toast.makeText(this, "Equity is the best bank around eastafrica",Toast.LENGTH_LONG).show();
+	}
+
+}

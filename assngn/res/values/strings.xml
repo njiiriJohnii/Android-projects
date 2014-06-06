@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">assngn</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="submit">submit</string>
+    <string name="married">married</string>
+    <string name="single">single</string>
+    <string name="Mstatus">Mstatus</string>
+    <string name="Age">Age</string>
+    <string name="Name">Name</string>
+
+</resources>

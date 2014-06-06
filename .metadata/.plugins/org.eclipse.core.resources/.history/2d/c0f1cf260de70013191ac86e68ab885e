@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#BDB76B">
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="MyCalculator"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:textColor="#FF00FF"
+        android:textSize="12pt"
+        />
+    <EditText 
+        android:id="@+id/amount"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter amount(KES)"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="20dp"
+        android:drawableLeft="@android:drawable/ic_dialog_map"
+        />
+     <EditText 
+        android:id="@+id/edittextrate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the rate(%)"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="20dp"
+        android:drawableLeft="@android:drawable/ic_dialog_map"
+        />
+     <EditText 
+         android:id="@+id/edittexttime"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:hint="Enter the time(yrs)"
+         android:layout_marginLeft="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+         
+         />
+   
+
+</LinearLayout>

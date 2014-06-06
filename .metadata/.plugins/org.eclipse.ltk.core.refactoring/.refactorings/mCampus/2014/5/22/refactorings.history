@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;mCampus/res/drawable-xhdpi/BkcgtS1CEAEaD67.jpg&apos; to &apos;wallpaper.jpg&apos;" description="Rename resource &apos;BkcgtS1CEAEaD67.jpg&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="res/drawable-xhdpi/BkcgtS1CEAEaD67.jpg" name="wallpaper.jpg" stamp="1401194617215" updateReferences="true"/>
+</session>

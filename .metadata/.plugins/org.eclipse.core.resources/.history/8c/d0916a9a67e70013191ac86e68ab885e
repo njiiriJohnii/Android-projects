@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFD700"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/sal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:background="#7FFF00"
+        android:fontFamily="verdana"
+        android:text="Salo  calc!!!!!!"
+        android:textSize="15pt" />
+
+    <EditText
+        android:id="@+id/basic"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="15dp"
+        android:background="#228B22"
+        android:ems="10"
+        android:height="35dp"
+        android:hint="enter your basic salo" >
+    </EditText>
+     <EditText
+        android:id="@+id/allowances"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="15dp"
+        android:background="#FF8C00"
+        android:ems="10"
+        android:height="35dp"
+        android:hint="enter all your allownces" >
+    </EditText>
+     <EditText
+        android:id="@+id/gross"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="15dp"
+        android:background="#EEE8AA"
+        android:ems="10"
+        android:height="35dp"
+        android:hint="what is your gross" >
+    </EditText>
+
+</LinearLayout>

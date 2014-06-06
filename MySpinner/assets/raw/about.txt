@@ -1,0 +1,7 @@
+This app provides information to sellers on how to Create a Winning Display for their Farm Products.
+
+Gives a guideline of how to become a good leader for your business.
+
+App name: SellerPatner.
+Version: 1.0
+Developer: LeMMco Systems

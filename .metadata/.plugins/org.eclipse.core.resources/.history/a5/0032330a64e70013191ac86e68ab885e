@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#FFD700">
+    <TextView 
+        android:id="@+id/sal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Salo  calc!!!!!!"
+        android:fontFamily="verdana"
+        android:background="#7FFF00"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="30dp"
+        android:textSize="15pt"
+        />
+    <EditText 
+        android:id="@+id/basic"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="30dp"
+        android:hint="enter your basic salo"
+         android:layout_marginTop="15dp"
+        android:background="#228B22"
+        
+        
+        
+        />
+    
+    
+    
+    
+</LinearLayout>

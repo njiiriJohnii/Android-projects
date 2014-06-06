@@ -1,0 +1,27 @@
+package mlab.MySimpleCalc;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
+
+public class Banking extends Activity{
+	ListView banks;
+	String [] banknames = {"Equity Bank","Co-op","KCB","Barclays Bank"};   
+	
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		// TODO Auto-generated method stub
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.banking);
+		//find listview by Id
+		banks = (ListView) findViewById(R.id.list);
+		//create an array adapter to convert the 'banknames'into view objects
+		//here we can specify our own list designer
+		ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,R.layout.desighner,banknames);
+		//set the adapter to your list view
+		banks.setAdapter(adapter);
+		
+	}
+
+}
