@@ -1,0 +1,30 @@
+package mlab.calculator;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.widget.ArrayAdapter;
+import android.widget.Spinner;
+
+public class Loans extends Activity{
+Spinner loans;
+String[] bankloans ={"Personal Loans","School Loans","Students Loans","Farmer Loans"};
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		// TODO Auto-generated method stub
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.loans);
+		loans = (Spinner) findViewById(R.id.loans);
+	//Create a String Adapter	
+ArrayAdapter<String> adapter = 
+new ArrayAdapter<String>(this, R.layout.designer,bankloans);
+	
+adapter.setDropDownViewResource(R.layout.designer);
+//set adapter to spinner
+loans.setAdapter(adapter);	
+
+
+
+	}
+	
+	
+}

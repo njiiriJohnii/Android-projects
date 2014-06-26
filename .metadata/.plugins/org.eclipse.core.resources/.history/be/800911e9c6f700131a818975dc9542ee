@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_width="fill_parent"
+ android:layout_height="fill_parent"
+>
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background = "#ffffff">
+    <!-- call Header layout-->
+    
+<include layout="@layout/header"/>
+<!-- space -->
+<TextView 
+				android:layout_width="fill_parent"
+				android:layout_height="20px" 
+				/>
+			<!-- another layout to hold the button rows -->	
+	<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:padding="6dip">
+    
+       <!-- 1st row -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0">
+        
+        <Button android:id="@+id/feature1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onButtonClicker"
+            android:text="Sign In"
+            android:drawableTop="@drawable/encore"
+            android:background = "#ffffff"
+            android:layout_weight = "1"
+            android:textColor = "@drawable/buttondesign"/>
+            
+        <Button android:id="@+id/feature2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onButtonClicker"
+            android:text="Sign Up"
+            android:drawableTop="@drawable/fb"
+            android:background = "#ffffff"
+            android:layout_weight = "1"
+            android:textColor = "@drawable/buttondesign"/>
+    </LinearLayout>
+    
+      <!-- spaces -->
+	<TextView 
+				android:layout_width="fill_parent"
+				android:layout_height="50px" 
+				/>
+				
+				
+				  <!-- 2nd row -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0">
+        <Button android:id="@+id/feature4"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:onClick="onButtonClicker"
+           android:text="Messages"
+           android:drawableTop="@drawable/pin"
+           android:layout_weight = "1"
+           android:background = "#ffffff"
+           android:textColor = "@drawable/buttondesign"/>
+           
+        <Button android:id="@+id/feature5"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:onClick="onButtonClicker"
+           android:text="Info"
+           android:drawableTop="@drawable/tube"
+           android:layout_weight = "1"
+           android:background = "#ffffff"
+           android:textColor = "@drawable/buttondesign"/>
+    </LinearLayout>
+    
+    <!-- Space -->
+<TextView 
+				android:layout_width="fill_parent"
+				android:layout_height="50px" 
+				/>
+				
+				
+				<!--3rd row -->
+ 
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0">
+        <Button android:id="@+id/feature6"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:onClick="onButtonClicker"
+           android:text="About"
+           android:drawableTop="@drawable/pin"
+           android:layout_weight = "1"
+           android:background = "#ffffff"
+           android:textColor = "@drawable/buttondesign"/>
+           
+        <Button android:id="@+id/feature7"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:onClick="onButtonClicker"
+           android:text="Help"
+           android:drawableTop="@drawable/pin"
+           android:layout_weight = "1"
+           android:background = "#ffffff"
+           android:textColor = "@drawable/buttondesign"/>
+    </LinearLayout>
+</LinearLayout>
+
+<!-- footer Textview-->
+<TextView 
+				android:layout_width="fill_parent"
+				android:layout_height="30px"
+				android:text = "Copyright@2012"
+				android:background="#54C571" 
+				android:textColor = "#000000"
+				/>
+</LinearLayout>
+</ScrollView>

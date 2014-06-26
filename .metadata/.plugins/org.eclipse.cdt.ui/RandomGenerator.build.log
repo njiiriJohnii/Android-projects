@@ -1,0 +1,8 @@
+
+**** Build of configuration Default for project RandomGenerator ****
+
+/home/njiiri/android-ndk-r9d/ndk-build all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+[armeabi] Install        : libfirst.so => libs/armeabi/libfirst.so
+
+**** Build Finished ****

@@ -1,0 +1,10 @@
+
+**** Build of configuration Default for project NativeAudioStreaming ****
+
+/home/njiiri/android-ndk-r9d/ndk-build all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+[armeabi] Compile thumb  : native-audio-jni <= native-audio-jni.c
+[armeabi] SharedLibrary  : libnative-audio-jni.so
+[armeabi] Install        : libnative-audio-jni.so => libs/armeabi/libnative-audio-jni.so
+
+**** Build Finished ****

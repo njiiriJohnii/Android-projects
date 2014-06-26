@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <Button 
+        android:id="@+id/btnlogin"
+        android:layout_width="150px"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:onClick="clicked"
+        android:drawableTop="@android:drawable/ic_menu_share"
+        />
+    <Button 
+        android:id="@+id/btninfo"
+        android:layout_width="150px"
+        android:layout_toRightOf="@+id/btnlogin"
+        android:layout_height="wrap_content"
+        android:text="About"
+        android:onClick="clicked"
+        android:drawableTop="@android:drawable/ic_dialog_info"
+        />
+    <Button 
+        android:id="@+id/btnreg"
+        android:layout_width="150px"
+        android:layout_toRightOf="@+id/btninfo"
+        android:layout_height="wrap_content"
+        android:onClick="clicked"
+        android:text="Register"
+        android:layout_marginLeft="0dp"
+        android:drawableTop="@android:drawable/ic_menu_share"
+        />
+    <FrameLayout 
+        android:id="@+id/fragment_space"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:layout_below="@+id/btninfo"
+        
+        
+        
+        ></FrameLayout>
+
+</RelativeLayout>

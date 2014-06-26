@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+   
+    
+      <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="70dp"
+        android:drawableLeft="@drawable/lgn"
+        android:gravity="center"
+        android:height="15dp"
+        android:text="Login"
+        android:textColor="#00FF00" 
+        android:onClick="log"/>
+
+      <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/sighnup"
+        android:height="15dp"
+        android:gravity="center"
+        android:text="Register"
+        android:onClick="Reg"
+        android:textColor="#7FFF00" />
+
+</LinearLayout>

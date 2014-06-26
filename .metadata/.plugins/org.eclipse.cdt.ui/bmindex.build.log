@@ -1,0 +1,10 @@
+
+**** Build of configuration Default for project bmindex ****
+
+/home/njiiri/android-ndk-r9d/ndk-build all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+/home/njiiri/android-ndk-r9d/build/core/setup-app.mk:91: *** Android NDK: Aborting    .  Stop.
+Android NDK: NDK Application 'local' targets unknown ABI(s): armeabis    
+Android NDK: Please fix the APP_ABI definition in ./jni/Application.mk    
+
+**** Build Finished ****

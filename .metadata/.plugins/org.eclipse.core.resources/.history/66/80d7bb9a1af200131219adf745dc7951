@@ -1,0 +1,63 @@
+ package mlab.calculator;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.view.Menu;
+import android.view.View;
+import android.widget.EditText;
+import android.widget.Toast;
+
+
+public class Calculator extends Activity {
+//declare Edit text
+	EditText amount;
+	EditText rate;
+	EditText time;
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.calculator);
+		//find your edit text by id from XML layout
+		amount = (EditText)findViewById(R.id.edittextamount);
+		rate = (EditText)findViewById(R.id.edittextrate);
+		time = (EditText)findViewById(R.id.edittexttime);	
+	}
+	
+	//listen to button click
+	public void Calculate(View v)
+	{
+		//Now, get text from your edittexts individually
+		String ouramount = amount.getText().toString();
+		String ourrate = rate.getText().toString();
+		String ourtime = time.getText().toString();
+		//check empty fields
+		if(ouramount.length()==0){
+		Toast.makeText(this, "Error!! Please Enter Amount!", Toast.LENGTH_LONG).show();	
+			
+		}
+		else if(ourrate.length()==0){
+		Toast.makeText(this, "Error!! Please Enter Rate!", Toast.LENGTH_LONG).show();	
+		}
+		else {
+		//Converts strings to double
+		double con_amount = Double.parseDouble(ouramount);
+		double con_rate = Double.parseDouble(ourrate);
+		double con_time = Double.parseDouble(ourtime);
+		//Calculate
+		double ans = con_amount*con_rate/100*con_time;
+		//Toast the answer
+		Toast.makeText(this, "Answer is: "+ans, Toast.LENGTH_LONG).show();
+		}
+		//to do
+	}
+	
+	
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.main, menu);
+		return true;
+	}
+
+}

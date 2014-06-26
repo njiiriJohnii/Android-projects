@@ -1,0 +1,37 @@
+package com.nyumbakumi;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.EditText;
+
+public class Landlord<SQLiteHandler> extends Activity {
+	EditText town,estate,plot,group,tenant,hsenumbr,family;
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		// TODO Auto-generated method stub
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.landlord);
+		town = (EditText) findViewById (R.id.editText1);
+		estate = (EditText) findViewById (R.id.editText2);
+		plot = (EditText) findViewById (R.id.editText3);
+		group = (EditText) findViewById (R.id.editText4);
+		tenant = (EditText) findViewById (R.id.editText5);
+		hsenumbr = (EditText) findViewById (R.id.editText6);
+		family = (EditText) findViewById (R.id.editText7);
+		
+	}
+	public void reg (View v){
+		String townee = town.getText().toString();
+		String estatee = estate.getText().toString();
+		String plotee = plot.getText().toString();
+		String groupee = group.getText().toString();
+		String tenantee = tenant.getText().toString();
+		String hsenumbre = hsenumbr.getText().toString();
+		String familye = family.getText().toString();
+		
+		SQLiteHandler handler= new SQLiteHandler (getApplicationContext());
+		handler.SaveRecords(townee,estatee,plotee,groupee,tenantee,hsenumbre,familye);
+	}
+
+}

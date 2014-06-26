@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;mvboli.ttf&apos; to &apos;myfiles&apos;&#x0A;- Original project: &apos;MySimpleCalc&apos;&#x0A;- Destination element: &apos;myfiles&apos;&#x0A;- Original element: &apos;mvboli.ttf&apos;" description="Copy file" element1="assets/myfiles/mvboli.ttf" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1403080498607" target="/MySimpleCa/assets/myfiles" units="0" version="1.0"/>
+</session>

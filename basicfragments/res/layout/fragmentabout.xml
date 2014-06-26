@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#fa6a6a">
+    
+    <TextView 
+        android:id="@+id/tvabout"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:text="A fragment has its own layout and its own behavior with its
+own lifecycle callbacks.
+You can add or remove fragments in an activity while the
+activity is running.
+You can combine multiple fragments in a single activity to build
+a multi-pane UI."
+android:gravity="center"
+android:textColor="#368BC1"/>
+    
+
+</LinearLayout>

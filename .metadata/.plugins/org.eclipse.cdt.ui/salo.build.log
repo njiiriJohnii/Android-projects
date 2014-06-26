@@ -1,0 +1,8 @@
+
+**** Build of configuration Default for project salo ****
+
+/home/njiiri/android-ndk-r9d/ndk-build all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Install        : libsalo.so => libs/armeabi/libsalo.so
+
+**** Build Finished ****

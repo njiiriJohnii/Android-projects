@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+     android:background="#FFF8C6">
+     
+     <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@drawable/ic_launcher"
+        android:src="@drawable/ic_launcher" />
+     
+     <Spinner 
+        android:id="@+id/loans"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="50dp"       
+         
+         />
+    
+
+</LinearLayout>

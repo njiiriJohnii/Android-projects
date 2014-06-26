@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+      <TextView
+        android:id="@+id/textwk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="#0000FF"
+        android:text="Enter your monthly salary" />
+    <EditText
+        android:id="@+id/editwk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true" 
+        android:layout_marginLeft="30dp"
+        android:inputType="text"
+        android:ems="10" />
+
+</RelativeLayout>

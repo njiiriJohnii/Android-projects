@@ -1,0 +1,37 @@
+package mlab.MySimpleCalc;
+
+import android.R;
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.ImageView;
+import android.widget.Toast;
+
+public class Gridmenu extends Activity{
+	ImageView imgpinn;
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState); 
+		setContentView(R.layout.gridmenu);
+		imgpinn = (ImageView) findViewById(R.id.img1);
+		imgpinn.setOnClickListener(new OnClickListener()
+		{
+			public void onClick(View arg0)
+			{
+				Toast.makeText(getApplicationContext(), "Clicked",Toast.LENGTH_LONG).show();
+			}
+		});
+		
+	}
+	//button click listener
+	public void onButtonClicker(View v){
+		switch(v.getId()){
+			case R.id.feature1;
+			
+			break;
+		}
+		
+	}
+
+}

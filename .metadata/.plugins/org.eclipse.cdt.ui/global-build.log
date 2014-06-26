@@ -1,0 +1,218 @@
+
+**** Clean-only build of configuration Default for project bmindex ****
+
+/home/njiiri/android-ndk-r9d/ndk-build clean 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+[armeabi] Clean          : first [armeabi]
+[armeabi] Clean          : stdc++ [armeabi]
+
+**** Build Finished ****
+
+**** Build of configuration Default for project bmindex ****
+
+/home/njiiri/android-ndk-r9d/ndk-build all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+[armeabi] Compile thumb  : first <= first.c
+[armeabi] SharedLibrary  : libfirst.so
+[armeabi] Install        : libfirst.so => libs/armeabi/libfirst.so
+
+**** Build Finished ****
+
+**** Build of configuration Default for project salo ****
+
+/home/njiiri/android-ndk-r9d/ndk-build all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Compile++ thumb: salo <= salo.cpp
+[armeabi] StaticLibrary  : libstdc++.a
+[armeabi] SharedLibrary  : libsalo.so
+[armeabi] Install        : libsalo.so => libs/armeabi/libsalo.so
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Default for project NativeAudioStreaming ****
+
+/home/njiiri/android-ndk-r9d/ndk-build clean 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+obj/local/armeabi/objs/native-audio-jni/native-audio-jni.o.d:1: *** multiple target patterns.  Stop.
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Default for project RandomGenerator ****
+
+/home/njiiri/android-ndk-r9d/ndk-build clean 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+obj/local/armeabi/objs/first/first.o.d:1: *** multiple target patterns.  Stop.
+
+**** Build Finished ****
+
+**** Build of configuration Default for project RandomGenerator ****
+
+/home/njiiri/android-ndk-r9d/ndk-build all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+obj/local/armeabi/objs/first/first.o.d:1: *** multiple target patterns.  Stop.
+
+**** Build Finished ****
+
+**** Build of configuration Default for project bmindex ****
+
+/home/njiiri/android-ndk-r9d/ndk-build all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+[armeabi] Install        : libfirst.so => libs/armeabi/libfirst.so
+
+**** Build Finished ****
+
+**** Build of configuration Default for project bmindex ****
+
+/home/njiiri/android-ndk-r9d/ndk-build all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+[armeabi] Compile thumb  : first <= first.c
+[armeabi] SharedLibrary  : libfirst.so
+[armeabi] Install        : libfirst.so => libs/armeabi/libfirst.so
+
+**** Build Finished ****
+
+**** Build of configuration Default for project bmindex ****
+
+/home/njiiri/android-ndk-r9d/ndk-build all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+[x86] Compile        : first <= first.c
+[x86] SharedLibrary  : libfirst.so
+[x86] Install        : libfirst.so => libs/x86/libfirst.so
+
+**** Build Finished ****
+
+**** Build of configuration Default for project bmindex ****
+
+/home/njiiri/android-ndk-r9d/ndk-build all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+[armeabi-v7a] Compile thumb  : first <= first.c
+[armeabi-v7a] SharedLibrary  : libfirst.so
+[armeabi-v7a] Install        : libfirst.so => libs/armeabi-v7a/libfirst.so
+[armeabi] Compile thumb  : first <= first.c
+[armeabi] SharedLibrary  : libfirst.so
+[armeabi] Install        : libfirst.so => libs/armeabi/libfirst.so
+[x86] Compile        : first <= first.c
+[x86] SharedLibrary  : libfirst.so
+[x86] Install        : libfirst.so => libs/x86/libfirst.so
+[mips] Compile        : first <= first.c
+[mips] SharedLibrary  : libfirst.so
+[mips] Install        : libfirst.so => libs/mips/libfirst.so
+
+**** Build Finished ****
+
+**** Build of configuration Default for project bmindex ****
+
+/home/njiiri/android-ndk-r9d/ndk-build all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: NDK Application 'local' targets unknown ABI(s): armeabis    
+Android NDK: Please fix the APP_ABI definition in ./jni/Application.mk    
+/home/njiiri/android-ndk-r9d/build/core/setup-app.mk:91: *** Android NDK: Aborting    .  Stop.
+
+**** Build Finished ****
+
+**** Build of configuration Default for project bmindex ****
+
+/home/njiiri/android-ndk-r9d/ndk-build all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+/home/njiiri/android-ndk-r9d/build/core/setup-app.mk:91: *** Android NDK: Aborting    .  Stop.
+Android NDK: NDK Application 'local' targets unknown ABI(s): armeabis    
+Android NDK: Please fix the APP_ABI definition in ./jni/Application.mk    
+
+**** Build Finished ****
+
+**** Build of configuration Default for project bmindex ****
+
+/home/njiiri/android-ndk-r9d/ndk-build all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+/home/njiiri/android-ndk-r9d/build/core/setup-app.mk:91: *** Android NDK: Aborting    .  Stop.
+Android NDK: NDK Application 'local' targets unknown ABI(s): armeabis    
+Android NDK: Please fix the APP_ABI definition in ./jni/Application.mk    
+
+**** Build Finished ****
+
+**** Build of configuration Default for project RandomGenerator ****
+
+/home/njiiri/android-ndk-r9d/ndk-build all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+[armeabi] Compile thumb  : first <= first.c
+[armeabi] SharedLibrary  : libfirst.so
+[armeabi] Install        : libfirst.so => libs/armeabi/libfirst.so
+
+**** Build Finished ****
+
+**** Build of configuration Default for project RandomGenerator ****
+
+/home/njiiri/android-ndk-r9d/ndk-build all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+[armeabi] Install        : libfirst.so => libs/armeabi/libfirst.so
+
+**** Build Finished ****
+
+**** Build of configuration Default for project NativeAudioStreaming ****
+
+/home/njiiri/android-ndk-r9d/ndk-build all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+[armeabi] Compile thumb  : native-audio-jni <= native-audio-jni.c
+[armeabi] SharedLibrary  : libnative-audio-jni.so
+[armeabi] Install        : libnative-audio-jni.so => libs/armeabi/libnative-audio-jni.so
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Default for project ImagianPro ****
+
+/home/njiiri/android-ndk-r9d/ndk-build clean 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+obj/local/armeabi-v7a/objs/imageprocessing/imageprocessing.o.d:1: *** multiple target patterns.  Stop.
+
+**** Build Finished ****
+
+**** Build of configuration Default for project ImagianPro ****
+
+/home/njiiri/android-ndk-r9d/ndk-build all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+[armeabi-v7a] Compile thumb  : imageprocessing <= imageprocessing.c
+[armeabi-v7a] SharedLibrary  : libimageprocessing.so
+[armeabi-v7a] Install        : libimageprocessing.so => libs/armeabi-v7a/libimageprocessing.so
+[armeabi] Compile thumb  : imageprocessing <= imageprocessing.c
+[armeabi] SharedLibrary  : libimageprocessing.so
+[armeabi] Install        : libimageprocessing.so => libs/armeabi/libimageprocessing.so
+[x86] Compile        : imageprocessing <= imageprocessing.c
+[x86] SharedLibrary  : libimageprocessing.so
+[x86] Install        : libimageprocessing.so => libs/x86/libimageprocessing.so
+[mips] Compile        : imageprocessing <= imageprocessing.c
+[mips] SharedLibrary  : libimageprocessing.so
+[mips] Install        : libimageprocessing.so => libs/mips/libimageprocessing.so
+
+**** Build Finished ****
+
+**** Build of configuration Default for project salo ****
+
+/home/njiiri/android-ndk-r9d/ndk-build all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Install        : libsalo.so => libs/armeabi/libsalo.so
+
+**** Build Finished ****
+
+**** Build of configuration Default for project salo ****
+
+/home/njiiri/android-ndk-r9d/ndk-build all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Install        : libsalo.so => libs/armeabi/libsalo.so
+
+**** Build Finished ****
+
+**** Build of configuration Default for project salo ****
+
+/home/njiiri/android-ndk-r9d/ndk-build all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Install        : libsalo.so => libs/armeabi/libsalo.so
+
+**** Build Finished ****
+
+**** Build of configuration Default for project salo ****
+
+/home/njiiri/android-ndk-r9d/ndk-build all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Install        : libsalo.so => libs/armeabi/libsalo.so
+
+**** Build Finished ****

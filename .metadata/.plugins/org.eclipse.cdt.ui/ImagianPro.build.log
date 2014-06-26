@@ -1,0 +1,19 @@
+
+**** Build of configuration Default for project ImagianPro ****
+
+/home/njiiri/android-ndk-r9d/ndk-build all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+[armeabi-v7a] Compile thumb  : imageprocessing <= imageprocessing.c
+[armeabi-v7a] SharedLibrary  : libimageprocessing.so
+[armeabi-v7a] Install        : libimageprocessing.so => libs/armeabi-v7a/libimageprocessing.so
+[armeabi] Compile thumb  : imageprocessing <= imageprocessing.c
+[armeabi] SharedLibrary  : libimageprocessing.so
+[armeabi] Install        : libimageprocessing.so => libs/armeabi/libimageprocessing.so
+[x86] Compile        : imageprocessing <= imageprocessing.c
+[x86] SharedLibrary  : libimageprocessing.so
+[x86] Install        : libimageprocessing.so => libs/x86/libimageprocessing.so
+[mips] Compile        : imageprocessing <= imageprocessing.c
+[mips] SharedLibrary  : libimageprocessing.so
+[mips] Install        : libimageprocessing.so => libs/mips/libimageprocessing.so
+
+**** Build Finished ****

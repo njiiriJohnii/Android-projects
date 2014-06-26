@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="#C71585">
+   
+   <EditText
+        android:id="@+id/txtregid"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="15dp"
+        android:background="#ffff"
+        android:drawableLeft="@android:drawable/ic_menu_view"
+        android:height="60dp"
+        android:hint="enter your reg number"
+        android:inputType="number"
+        android:maxLength="5"
+        
+        
+        
+        />
+     
+   <EditText
+        android:id="@+id/txtfirstname"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="15dp"
+        android:background="#ffff"
+        android:drawableLeft="@android:drawable/ic_menu_view"
+        android:height="40dp"
+        android:hint="enter your firstname"
+        android:maxLength="20"
+        
+        
+        
+        />
+     
+   <EditText
+        android:id="@+id/txtlastname"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="15dp"
+        android:background="#ffff"
+       android:drawableLeft="@android:drawable/ic_menu_view"
+        android:height="40dp"
+        android:hint="enter your lastname"
+        android:maxLength="20"
+       />
+   <Button 
+       android:layout_height="wrap_content"
+       android:layout_width="fill_parent"
+       android:layout_marginLeft="60dp"
+       android:layout_marginRight="50dp"
+       android:layout_marginTop="30dp"
+       android:text="SaveRecord"
+       android:onClick="Save"
+        android:drawableLeft="@android:drawable/ic_menu_save"
+       />
+    <Button 
+       android:layout_height="wrap_content"
+       android:layout_width="fill_parent"
+       android:layout_marginLeft="60dp"
+       android:layout_marginRight="50dp"
+       android:layout_marginTop="30dp"
+       android:text="Search"
+       android:onClick="Search"
+       android:drawableLeft="@android:drawable/ic_menu_save"/>
+       
+
+</LinearLayout>
